@@ -19,6 +19,8 @@ is used for downloads, documentation, bug reports, and feature requests.
 > published here or anywhere else. See [LICENSE](LICENSE) for the full
 > terms.
 
+![Arc Flow](assets/arc-flow-cover.png)
+
 ## Table of contents
 
 - [What it does](#what-it-does)
