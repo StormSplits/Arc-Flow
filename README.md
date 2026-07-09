@@ -21,8 +21,19 @@ is used for downloads, documentation, bug reports, and feature requests.
 
 ![Arc Flow](assets/arc-flow-cover.png)
 
+## Mission & Vision
+
+**Vision:** Speaking is a basic human right. No one should have to pay to
+turn their own voice into text.
+
+**Mission:** Keep it that way. Arc Flow's core dictation — speech-to-text,
+anywhere, on any app — will never sit behind a paywall, a subscription, or
+an account. Free isn't an introductory offer here; it's the point of the
+project.
+
 ## Table of contents
 
+- [Mission & Vision](#mission--vision)
 - [What it does](#what-it-does)
 - [Privacy model](#privacy-model)
 - [Using Arc Flow](#using-arc-flow)
