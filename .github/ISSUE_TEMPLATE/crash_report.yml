@@ -1,0 +1,74 @@
+name: Crash report
+description: Arc Flow closed unexpectedly, froze, or stopped responding.
+title: "[Crash]: "
+labels: ["crash", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Sorry the app crashed on you. If Arc Flow showed you an in-app crash
+        report dialog, sending it from there gets us the most useful detail
+        automatically — but filing it here too (or instead) is completely
+        fine.
+
+  - type: input
+    id: version
+    attributes:
+      label: App version
+      description: Settings → About
+      placeholder: e.g. 0.2.2
+    validations:
+      required: true
+
+  - type: input
+    id: os
+    attributes:
+      label: OS version
+      placeholder: e.g. Windows 11 24H2, build 26200
+    validations:
+      required: true
+
+  - type: input
+    id: crash-time
+    attributes:
+      label: Crash time
+      description: Roughly when did this happen? (date/time, and timezone if known)
+      placeholder: e.g. 2026-07-10, around 2:30 PM IST
+    validations:
+      required: true
+
+  - type: textarea
+    id: doing
+    attributes:
+      label: What were you doing when it crashed?
+      placeholder: e.g. Dictating into a Word document, right after switching microphones in Settings
+    validations:
+      required: true
+
+  - type: textarea
+    id: error
+    attributes:
+      label: Error message
+      description: Copy the exact text of any error dialog or message you saw, if any.
+    validations:
+      required: false
+
+  - type: textarea
+    id: crash-log
+    attributes:
+      label: Crash log attachment
+      description: |
+        Attach the crash log if you have one (Settings → Help → Open Log
+        Folder). Please redact any API keys or personal information first.
+      placeholder: Drag and drop the log file here.
+
+  - type: dropdown
+    id: reproducible
+    attributes:
+      label: Is this reproducible?
+      options:
+        - "Yes, I can make it happen again"
+        - "It happened more than once, but I don't know the exact trigger"
+        - "It only happened once so far"
+    validations:
+      required: true

@@ -1,0 +1,47 @@
+name: Feature request
+description: Suggest an idea, improvement, or a workflow Arc Flow doesn't support yet.
+title: "[Feature]: "
+labels: ["enhancement", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the suggestion. Describing the problem you're trying to
+        solve (not just the fix you have in mind) helps us design something
+        that fits well with the rest of the app.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem / use case
+      description: What are you trying to do, and what's getting in the way today?
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed solution
+      description: What would you like Arc Flow to do instead?
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Any workarounds you're using now, or other approaches you thought about?
+    validations:
+      required: false
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority / impact
+      description: How much does this affect your day-to-day use of Arc Flow?
+      options:
+        - "Nice to have"
+        - "Would meaningfully improve my workflow"
+        - "Blocking / I can't use Arc Flow well without it"
+    validations:
+      required: true

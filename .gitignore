@@ -1,0 +1,27 @@
+# This repository holds docs, templates, and release notes only. This
+# .gitignore exists to catch accidental local/OS/build clutter — it is not
+# meant to permit any of the excluded categories elsewhere in the repo.
+
+# OS clutter
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+
+# Never commit build output or installers here — they belong on the
+# Releases page, not in the repository.
+*.exe
+*.msi
+*.zip
+*.dmg
+*.AppImage
+
+# Never commit secrets
+.env
+.env.*
+*.pem
+*.key

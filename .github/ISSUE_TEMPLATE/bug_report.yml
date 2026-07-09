@@ -1,0 +1,93 @@
+name: Bug report
+description: Something in Arc Flow isn't working the way it should.
+title: "[Bug]: "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this. This repository does not
+        contain Arc Flow's source code — that's fine, we just need enough
+        detail to reproduce the problem.
+
+        If this is a crash (the app closed or stopped responding entirely),
+        please use the **Crash report** template instead.
+
+  - type: input
+    id: version
+    attributes:
+      label: App version
+      description: Settings → About
+      placeholder: e.g. 0.2.2
+    validations:
+      required: true
+
+  - type: input
+    id: os
+    attributes:
+      label: OS version
+      placeholder: e.g. Windows 11 24H2, build 26200
+    validations:
+      required: true
+
+  - type: dropdown
+    id: install-type
+    attributes:
+      label: Installation type
+      options:
+        - MSI installer
+        - Portable ZIP / EXE
+        - Winget
+        - Not sure
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: What did you do, in order, right before the problem showed up?
+      placeholder: |
+        1. Open Arc Flow
+        2. Press Ctrl+Space to start dictating
+        3. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What did you expect to happen?
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: What actually happened instead?
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / screenshots
+      description: |
+        Attach anything that helps — a log file (Settings → Help → Open Log
+        Folder) or a screenshot. Please redact any API keys or personal
+        information first (see the README's "Including logs and
+        screenshots safely" section).
+      placeholder: Drag and drop files here, or paste relevant log lines.
+
+  - type: dropdown
+    id: persists
+    attributes:
+      label: Does this happen again after a restart or reinstall?
+      options:
+        - "Yes, it happens every time"
+        - "No, restarting/reinstalling fixed it"
+        - "Haven't tried"
+    validations:
+      required: true

@@ -1,0 +1,104 @@
+ARC FLOW END-USER LICENSE AGREEMENT
+
+This repository contains no application source code. This Agreement
+governs your use of the compiled Arc Flow application distributed as a
+Release on this repository (and via the Arc Flow website) — not any
+content of this repository itself.
+
+Copyright (c) Shubham. All rights reserved.
+
+This is a proprietary freeware license. Arc Flow is NOT open-source
+software. No portion of its source code is licensed, distributed, or made
+available to end users under this Agreement, and none is published in this
+repository or anywhere else.
+
+1. GRANT OF LICENSE
+
+Subject to the terms of this Agreement, Shubham grants you a free,
+non-exclusive, non-transferable, revocable license to download, install,
+and use the Arc Flow application ("the Software") on devices you own or
+control, for personal or internal business use.
+
+Arc Flow is free to use. There is no license fee, subscription, or paywall
+for the core application, and we intend to keep it that way. This Agreement
+does not obligate Shubham to maintain any specific feature, cloud
+integration, or update forever, but the intent — and our commitment — is
+that Arc Flow itself remains free for individuals to use.
+
+2. WHAT THIS LICENSE DOES NOT GIVE YOU
+
+Because Arc Flow is proprietary (not open-source), this Agreement does NOT
+grant you any right to:
+
+  - View, access, or receive the source code;
+  - Modify, adapt, translate, or create derivative works of the Software;
+  - Reverse-engineer, decompile, or disassemble the Software, except to the
+    limited extent applicable law expressly permits despite this restriction;
+  - Redistribute, resell, sublicense, rent, lease, or lend the Software, in
+    whole or in part, under your own or any other name — including
+    re-hosting the installer or portable build on a mirror, download
+    aggregator, or other repository;
+  - Remove, obscure, or alter any copyright, trademark, or other proprietary
+    notice included with the Software;
+  - Use the Arc Flow name, logo, or branding to promote a derivative or
+    competing product.
+
+3. OWNERSHIP
+
+The Software is licensed, not sold. Shubham retains all right, title, and
+interest in and to the Software, including all intellectual property
+rights. No rights are granted to you other than the limited license
+expressly stated in Section 1. This also applies to the contents of this
+repository (documentation, issue templates, release notes, and other
+materials) — they are provided for your reference and use in interacting
+with the project, not for reuse as your own.
+
+4. THIRD-PARTY AI PROVIDERS AND YOUR OWN ACCOUNTS
+
+Arc Flow can optionally connect to third-party cloud AI providers (for
+example: OpenAI, Anthropic, Google, Groq, DeepSeek, Deepgram, ElevenLabs,
+Mistral, or a custom endpoint you specify) using your own account and API
+key. Your use of any such third-party service is governed entirely by that
+provider's own terms of service and privacy policy — not this Agreement.
+Shubham does not operate, control, or take responsibility for any
+third-party provider's servers, and is not a party to your relationship
+with them.
+
+5. NO WARRANTY
+
+THE SOFTWARE IS PROVIDED "AS IS," WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. SHUBHAM DOES NOT
+WARRANT THAT THE SOFTWARE WILL BE UNINTERRUPTED, ERROR-FREE, OR THAT ANY
+TRANSCRIPTION OR AI-GENERATED OUTPUT WILL BE ACCURATE.
+
+6. LIMITATION OF LIABILITY
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, SHUBHAM SHALL NOT BE
+LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE
+DAMAGES, OR ANY LOSS OF DATA, PROFITS, OR GOODWILL, ARISING OUT OF OR
+RELATED TO YOUR USE OF (OR INABILITY TO USE) THE SOFTWARE, EVEN IF ADVISED
+OF THE POSSIBILITY OF SUCH DAMAGES. THIS INCLUDES ANY LOSS OR EXPOSURE OF
+DATA RESULTING FROM YOUR OWN CHOICE TO USE A THIRD-PARTY CLOUD PROVIDER.
+
+7. TERMINATION
+
+This license is effective until terminated. It terminates automatically if
+you fail to comply with any term of this Agreement. Upon termination, you
+must stop using the Software and delete all copies in your possession.
+
+8. CHANGES TO THIS AGREEMENT
+
+Shubham may update this Agreement from time to time as the product
+evolves. Continued use of the Software after an update constitutes
+acceptance of the revised terms. Material changes will be reflected in this
+file, kept in this repository.
+
+9. CONTACT
+
+Questions about this Agreement can be sent to shubhamsinghania0508@gmail.com.
+
+---
+
+See also: the Privacy Policy linked from the app's Settings, for how Arc
+Flow handles your data.
