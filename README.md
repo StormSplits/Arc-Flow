@@ -38,6 +38,7 @@ project.
 - [Privacy model](#privacy-model)
 - [Using Arc Flow](#using-arc-flow)
 - [Features](#features)
+- [Support the project](#support-the-project)
 - [Download](#download)
 - [Reporting a bug](#reporting-a-bug)
 - [Requesting a feature](#requesting-a-feature)
@@ -185,6 +186,17 @@ in-app forms.
   CPU-only and recommends an appropriate model and backend.
 - **System tray** — runs quietly in the background; the hotkey works even
   when the window is hidden.
+
+## Support the project
+
+Arc Flow's dictation will always be free — that's the mission, not a
+promotional phase. If it's useful to you and you'd like to help keep it
+that way, you can support development on Ko-fi:
+
+**[☕ Support Arc Flow on Ko-fi](https://ko-fi.com/stormdecrypts)**
+
+This is entirely optional — nothing in the app is gated behind it, and it
+never will be.
 
 ## Download
 
