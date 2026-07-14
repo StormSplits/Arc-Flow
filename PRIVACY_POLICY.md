@@ -148,4 +148,4 @@ repository for the full terms.
 ## 10. Contact
 
 Questions about this policy, or about your data, can be sent to
-shubhamsinghania0508@gmail.com.
+helloarcflow@gmail.com.

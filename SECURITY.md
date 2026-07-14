@@ -21,7 +21,7 @@ reports that shouldn't be visible to the public before they're resolved.
 
 ## How to report
 
-Email **shubhamsinghania0508@gmail.com** with:
+Email **helloarcflow@gmail.com** with:
 
 - A clear description of the issue and its potential impact
 - Steps to reproduce it, or a proof of concept if you have one

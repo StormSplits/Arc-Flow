@@ -13,6 +13,25 @@ imply a breaking change, since there is no public API surface to break.
 
 - Nothing yet.
 
+## [0.2.3]
+
+- Added a global Snippets On/Off switch. Snippets stay saved while paused.
+- Added Smart and Always insertion modes. Smart snippets use sentence context;
+  Always snippets keep classic macro behavior.
+- Improved exact insertion for links, addresses, signatures, repeated triggers,
+  and overlapping trigger phrases.
+- Added Hinglish (Roman script) transcription and explicitly disabled unwanted
+  Whisper translation.
+- Lists now stay in sentence form unless the speaker asks for a list or counts
+  out the items.
+- Added 25 time-aware Home greetings that remain stable while navigating and
+  update when the time of day changes.
+- Improved dictation-island visibility, stale-timer handling, and recovery.
+- Failed text insertion now offers a copy action instead of showing a false
+  success message.
+- Added a Home notice while global hotkeys are paused.
+- Updated the public support contact details.
+
 ## [0.2.2]
 
 - Improved reliability of the dictation overlay, including automatic

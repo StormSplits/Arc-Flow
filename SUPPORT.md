@@ -15,7 +15,7 @@ Onboarding) first.
 | An idea for a new feature | [Open a feature request](../../issues/new?template=feature_request.yml) |
 | A question that isn't a bug or a feature idea | [Open an issue](../../issues/new) describing what you're trying to do |
 | A security or privacy-sensitive report | See [SECURITY.md](SECURITY.md) — please don't use a public issue |
-| Anything else | Email shubhamsinghania0508@gmail.com |
+| Anything else | Email helloarcflow@gmail.com |
 
 ## What to include
 

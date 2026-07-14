@@ -123,9 +123,9 @@ combo.
 
 | Section | What it's for |
 |---|---|
-| **Home** | Your dictation history, streaks, and stats |
+| **Home** | Time-aware greetings, dictation history, streaks, and stats |
 | **Dictionary** | Teach Arc Flow words/names it keeps mishearing |
-| **Snippets** | A spoken trigger phrase that expands into fixed text (a signature, a canned reply) |
+| **Snippets** | Smart or Always voice shortcuts, with one switch to pause every snippet |
 | **Style** | Tone presets (Formal/Casual/Very Casual) per context (personal, work, email), and how aggressively cleanup rewrites your words |
 | **Notes** | Everything you've dictated with the Notes hotkey, plus a normal rich-text editor |
 | **Settings** | Hotkeys, microphone, AI Mode, Speech-to-Text, Privacy, Appearance, Advanced |
@@ -165,8 +165,11 @@ in-app forms.
   casual) for personal messages, work messages, email, etc.
 - **Personal dictionary** — teach Arc Flow your names, jargon, and product
   terms.
-- **Snippets** — voice-triggered text expansions for signatures, links, and
-  canned responses.
+- **Context-aware snippets** — choose Smart insertion when a trigger should
+  expand only in the right sentence context, or Always for classic macro
+  behavior. Pause all snippets at once without deleting them.
+- **Hinglish transcription** — speak mixed Hindi and English and keep the
+  result in familiar Roman script instead of translating it into English.
 - **Local notes** — a built-in 2-pane notes editor.
 - **History & stats** — a searchable log of past dictations with
   word/session counts.
