@@ -7,7 +7,7 @@ body:
     attributes:
       value: |
         Thanks for taking the time to report this. This repository does not
-        contain Arc Flow's source code — that's fine, we just need enough
+        contain Arc Flow's source code — that's fine, I just need enough
         detail to reproduce the problem.
 
         If this is a crash (the app closed or stopped responding entirely),
