@@ -2,26 +2,26 @@
 
 **Effective date: July 9, 2026**
 
-Arc Flow is a voice dictation app. This document explains, in plain language,
-exactly what happens to your voice and your text — what stays on your
-computer, what only ever goes to a service *you* chose and *you* control,
-and what (very little) ever reaches us.
+Arc Flow is a voice dictation app built and maintained by one person. This
+document explains, in plain language, exactly what happens to your voice and
+your text — what stays on your computer, what only ever goes to a service
+*you* chose and *you* control, and what (very little) ever reaches me.
 
 If you only read one section, read this one.
 
 ## The short version
 
-- **Arc Flow has no accounts, no sign-in, and no login.** We don't know who
+- **Arc Flow has no accounts, no sign-in, and no login.** I don't know who
   you are.
 - **On-device mode (the default): your voice and text never leave your
-  computer.** Not to us, not to anyone.
+  computer.** Not to me, not to anyone.
 - **Cloud mode (optional, your choice): your audio/text goes directly from
   your computer to the AI provider you picked** (OpenAI, Anthropic, Google,
   Groq, DeepSeek, or a custom endpoint), using your own API key. It does
-  **not** pass through our servers on the way.
-- **We never see your dictated words, your notes, your dictionary, or your
+  **not** pass through the Arc Flow servers on the way.
+- **I never see your dictated words, your notes, your dictionary, or your
   API keys — under any mode.**
-- The only things Arc Flow ever sends to our own servers are: a version
+- The only things Arc Flow ever sends to the Arc Flow servers are: a version
   check (to tell you about updates), a request for any in-app notices, and
   — only if you take a deliberate action — a bug report, feedback, a
   feature idea, or a crash report you chose to send.
@@ -47,7 +47,7 @@ the entire pipeline runs on your machine:
 This is the default mode, and it is fully functional offline once your
 chosen model has been downloaded.
 
-## 2. Cloud mode — data goes to the provider you chose, not to us
+## 2. Cloud mode — data goes to the provider you chose, not to me
 
 Arc Flow lets you optionally connect a cloud speech-to-text provider and/or
 a cloud text-cleanup provider, using **your own account and your own API
@@ -59,16 +59,16 @@ key**. Today, that list is:
   (Gemini), Groq, DeepSeek, or a custom OpenAI-compatible endpoint.
 
 If you turn on cloud mode, your audio and/or transcript is sent **directly
-from your device to that provider's servers** — not through any server we
+from your device to that provider's servers** — not through any server I
 operate. Your API key is sent along with it, exactly the way it would be if
 you called that provider's API yourself, because that is, functionally,
 what Arc Flow is doing on your behalf.
 
-**We do not see, store, log, or have any access to that data.** It never
-touches our infrastructure. Once it leaves your device, what happens to it
-is governed entirely by that provider's own privacy policy and terms —
-not this one, and not something we control. We are not responsible for how
-a third-party AI provider handles data you choose to send it; that is the
+**I do not see, store, log, or have any access to that data.** It never
+touches the Arc Flow infrastructure. Once it leaves your device, what
+happens to it is governed entirely by that provider's own privacy policy and
+terms — not this one, and not something I control. I am not responsible for
+how a third-party AI provider handles data you choose to send it; that is the
 trade-off of choosing cloud mode over on-device mode, and it's why Arc Flow
 always shows you which mode is active.
 
@@ -89,7 +89,7 @@ provider.
 Your dictation history, personal dictionary, snippets, writing-style
 preferences, notes, and settings are stored in a local database on your own
 computer, encrypted at rest (SQLCipher, AES-256). The encryption key lives
-only in your operating system's credential store. We have no copy of this
+only in your operating system's credential store. I have no copy of this
 database, no access to it, and no way to read it remotely — it never leaves
 your computer at all.
 
@@ -98,7 +98,7 @@ Privacy**.
 
 ## 5. What Arc Flow's own servers actually do
 
-Arc Flow talks to a small backend we operate (for checking updates and a
+Arc Flow talks to a small backend I operate (for checking updates and a
 few optional, user-initiated features). Here is the complete list of what
 that backend is used for — there is nothing beyond what's listed here:
 
@@ -110,22 +110,26 @@ that backend is used for — there is nothing beyond what's listed here:
 | Send Feedback / Report a Bug / Suggest a Feature | Whatever you type into that form, plus an optional email address if you choose to add one | **Only when you press Send** — never automatic |
 | Crash reports | A local crash report you're shown *before* it's sent — app version, timestamp, and the code location/message of the crash. **Never your audio or dictated text.** | **Off by default, and only sent when you press Send on a specific report** |
 
-None of this requires or creates an account. We don't assign you an ID, we
-don't track you across sessions, and we don't run any analytics or
+None of this requires or creates an account. You are never assigned an ID,
+you are never tracked across sessions, and there is no analytics or
 advertising tracking in the app.
 
 If any of these backend calls fail (for example, you're offline), Arc Flow
 simply treats it as "nothing new" — it never blocks or interferes with
 dictation, which works fully offline regardless.
 
-## 6. What we never collect, under any mode
+## 6. What the app never collects, under any mode
 
 - Your dictated audio or transcripts (unless you separately, explicitly
   paste something into a feedback/bug-report form yourself)
 - Your personal dictionary, snippets, notes, or dictation history
 - Your API keys
-- Your name, email, or any account information (we don't have accounts)
+- Your name, email, or any account information (there are no accounts)
 - Location, contacts, browsing history, or anything from other apps
+
+This section is about the app. An email given on the download page of the
+Arc Flow website goes to a release-notes list and nothing else. It is never
+linked to your dictation, because your dictation never reaches me at all.
 
 ## 7. Children's privacy
 
@@ -135,7 +139,7 @@ such information in the first place.
 
 ## 8. Changes to this policy
 
-We may update this policy as Arc Flow's features change. Meaningful changes
+I may update this policy as Arc Flow's features change. Meaningful changes
 will be reflected here, in this repository, with an updated effective date
 at the top of this document.
 

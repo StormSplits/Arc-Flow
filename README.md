@@ -21,19 +21,19 @@ is used for downloads, documentation, bug reports, and feature requests.
 
 ![Arc Flow](assets/arc-flow-cover.png)
 
-## Mission & Vision
+## Why it's built this way
 
-**Vision:** Speaking is a basic human right. No one should have to pay to
-turn their own voice into text.
+**Your voice shouldn't have to leave your computer.** Arc Flow runs on your
+machine by default. Cloud processing is a choice you make, not a default you
+inherit.
 
-**Mission:** Keep it that way. Arc Flow's core dictation — speech-to-text,
-anywhere, on any app — will never sit behind a paywall, a subscription, or
-an account. Free isn't an introductory offer here; it's the point of the
-project.
+**Dictation here is free. Permanently.** That is a decision about this
+project, not a comment on anyone else's. One day Arc Flow may charge for
+something beyond dictation; dictation itself never will.
 
 ## Table of contents
 
-- [Mission & Vision](#mission--vision)
+- [Why it's built this way](#why-its-built-this-way)
 - [What it does](#what-it-does)
 - [Privacy model](#privacy-model)
 - [Using Arc Flow](#using-arc-flow)
@@ -47,6 +47,7 @@ project.
 - [Security](#security)
 - [Privacy policy](#privacy-policy)
 - [Changelog](#changelog)
+- [Who made this](#who-made-this)
 - [License](#license)
 
 ## What it does
@@ -76,10 +77,10 @@ Cloud API keys are stored locally (Windows Credential Manager) and are sent
 only to the provider you pick — never to any Arc Flow server. Local mode is
 fully functional offline after the one-time model download.
 
-Arc Flow also talks to a small optional backend of ours for update checks,
-in-app notices, and (only if you choose to use them) feedback/bug-report
-forms and opt-in crash reporting — never for your dictation content. Full
-details: [PRIVACY_POLICY.md](PRIVACY_POLICY.md).
+Arc Flow also talks to a small optional backend for update checks, in-app
+notices, and (only if you choose to use them) feedback/bug-report forms and
+opt-in crash reporting — never for your dictation content. Full details:
+[PRIVACY_POLICY.md](PRIVACY_POLICY.md).
 
 ## Using Arc Flow
 
@@ -143,10 +144,10 @@ history, and settings are always preserved across an update.
 ### 5. Feedback and bugs
 
 **Help → Send Feedback / Report a Bug / Suggest a Feature** send directly
-to us — nothing is sent unless you press Send. Crash reports are separate:
+to me — nothing is sent unless you press Send. Crash reports are separate:
 off by default (**Settings → Privacy**), and even when on, a crash is only
-ever saved to a local file for you to review — sending one to us is a
-separate, explicit action. You're also welcome to use this repository's
+ever saved to a local file for you to review — sending one is a separate,
+explicit action. You're also welcome to use this repository's
 [issue templates](#reporting-a-bug) instead of, or in addition to, the
 in-app forms.
 
@@ -192,9 +193,8 @@ in-app forms.
 
 ## Support the project
 
-Arc Flow's dictation will always be free — that's the mission, not a
-promotional phase. If it's useful to you and you'd like to help keep it
-that way, you can support development on Ko-fi:
+Arc Flow's dictation will always be free. If it's useful to you and you'd
+like to help keep it that way, you can support development on Ko-fi:
 
 **[☕ Support Arc Flow on Ko-fi](https://ko-fi.com/stormdecrypts)**
 
@@ -215,7 +215,7 @@ repository's "About" section, top right of this page).
 
 Found something broken? Please [open a bug report](../../issues/new?template=bug_report.yml).
 The form will ask for your app version, OS version, installation type, and
-steps to reproduce — that's the information that helps us fix it fastest.
+steps to reproduce — that's the information that gets it fixed fastest.
 
 If the app crashed outright, use the
 [crash report template](../../issues/new?template=crash_report.yml) instead
@@ -225,9 +225,9 @@ message, and the crash log) that a regular bug report doesn't.
 ## Requesting a feature
 
 Have an idea or a workflow Arc Flow doesn't support yet? Open a
-[feature request](../../issues/new?template=feature_request.yml). Tell us
+[feature request](../../issues/new?template=feature_request.yml). Tell me
 the problem you're trying to solve, not just the solution you have in
-mind — it helps us design something that fits well with the rest of the app.
+mind — it helps me design something that fits well with the rest of the app.
 
 ## Including logs and screenshots safely
 
@@ -260,14 +260,22 @@ than through a public GitHub issue. Full instructions are in
 ## Privacy policy
 
 The complete, plain-language breakdown of what stays on your device, what
-only goes to a cloud provider you chose, and the short list of things our
-own backend ever sees, is in [PRIVACY_POLICY.md](PRIVACY_POLICY.md).
+only goes to a cloud provider you chose, and the short list of things the
+Arc Flow backend ever sees, is in [PRIVACY_POLICY.md](PRIVACY_POLICY.md).
 
 ## Changelog
 
 Release-by-release history of what's shipped is in
 [CHANGELOG.md](CHANGELOG.md), and every release on the
 [Releases](../../releases) page includes its own detailed notes.
+
+## Who made this
+
+I designed and built Arc Flow.
+
+[**Rudransh Singh**](https://www.linkedin.com/in/rudransh-singh255/) helped
+with development. [**Shubham Chauhan**](https://www.linkedin.com/in/shubham-chauhan-2306a6234/)
+helped with marketing.
 
 ## License
 

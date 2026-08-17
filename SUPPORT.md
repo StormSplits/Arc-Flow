@@ -31,6 +31,6 @@ section before attaching a log file or screenshot.
 
 ## Response times
 
-Arc Flow is maintained by a small team, so please be patient — we read
-every issue, but response times can vary. Security reports (see
+Arc Flow is maintained by one person, so please be patient — I read every
+issue, but response times can vary. Security reports (see
 [SECURITY.md](SECURITY.md)) are prioritized.

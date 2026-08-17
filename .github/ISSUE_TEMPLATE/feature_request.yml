@@ -7,7 +7,7 @@ body:
     attributes:
       value: |
         Thanks for the suggestion. Describing the problem you're trying to
-        solve (not just the fix you have in mind) helps us design something
+        solve (not just the fix you have in mind) helps me design something
         that fits well with the rest of the app.
 
   - type: textarea
